@@ -1080,6 +1080,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1953995986}
     m_Modifications:
+    - target: {fileID: 4116818230636027315, guid: 2c52ca1fe1dd8d2499f9021d65333e56, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 15836176384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116818230636027315, guid: 2c52ca1fe1dd8d2499f9021d65333e56, type: 3}
+      propertyPath: m_StringReference.m_TableReference.m_TableCollectionName
+      value: GUID:ba18996e9ac8b904ea1d8920285cce7d
+      objectReference: {fileID: 0}
     - target: {fileID: 4116818230665790208, guid: 2c52ca1fe1dd8d2499f9021d65333e56, type: 3}
       propertyPath: m_Name
       value: scenes_button
@@ -1167,6 +1175,14 @@ PrefabInstance:
     - target: {fileID: 4116818230665790209, guid: 2c52ca1fe1dd8d2499f9021d65333e56, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116818230665790210, guid: 2c52ca1fe1dd8d2499f9021d65333e56, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116818230665790213, guid: 2c52ca1fe1dd8d2499f9021d65333e56, type: 3}
+      propertyPath: sceneToLoad
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c52ca1fe1dd8d2499f9021d65333e56, type: 3}
