@@ -22,6 +22,10 @@ MonoBehaviour:
     m_Localized: Weiter
     m_Metadata:
       m_Items: []
+  - m_Id: 41188483194880
+    m_Localized: "Zur\xFCck"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -1082,7 +1082,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4116818230665790208, guid: 2c52ca1fe1dd8d2499f9021d65333e56, type: 3}
       propertyPath: m_Name
-      value: next_button
+      value: scenes_button
       objectReference: {fileID: 0}
     - target: {fileID: 4116818230665790209, guid: 2c52ca1fe1dd8d2499f9021d65333e56, type: 3}
       propertyPath: m_Pivot.x
