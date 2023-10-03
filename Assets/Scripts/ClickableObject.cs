@@ -7,6 +7,7 @@ public class ClickableObject : MonoBehaviour
     [SerializeField] int destroyTime = 2;
     public ParticleSystem item_taken_particle_system;
     private Animator animator;
+    public Animator taskAnimation;
     private bool isAnimationPlaying;
 
     private void Start()
@@ -36,6 +37,7 @@ public class ClickableObject : MonoBehaviour
                 // Play the animation
                 Destroy(gameObject, destroyTime);
                 animator.SetBool("isTaken", true);
+                taskAnimation.SetBool("isCollected", true);
                 isAnimationPlaying = true;
                 item_taken_particle_system.Play();
             }
